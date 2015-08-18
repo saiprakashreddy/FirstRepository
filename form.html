@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<h1>This is my first form in html</h1>
+</head>
+<body>
+	<Form action="first.html">
+
+		<fieldset>
+			<legend>These are required</legend>
+		Firstname: <input type="text" id="F.Name" name="First_name" placeholder="Please enter first name"> <br>
+		Lastname : <input type="text" id="L.Name" name="Last_name" placeholder=" please enter last name"> <br>
+
+		Please choose all that apply: <input type="checkbox" name="check" value="bachelors degree">B.Tech
+									  <input type="checkbox" name="check" value="masters">Masters
+									  <input type="checkbox" name="check" value="cse">CSE 
+									  <br>
+			</fieldset>
+
+			<fieldset>
+				<legend>Color options</legend>
+		Please enter your gender: <input type="radio" name="Male" value="M" checked="true"> MALE
+								  <input type="radio" name="Female" value="F"> FEMALE
+								  <br>
+				</fieldset>
+
+		dropdown Box: <input type="dropbox" name="dropping" value="1"> one
+					  <input type="dropbox" name="same" value="2"> two
+		Conform: <input type="submit" value="submit"> <br>
+
+
+
+				<textarea rows="19" columns="44"> This is the area where we can write multiple statements and phrases
+				</textarea>		
+		
+				
+				<button type="button" onclick="alert('hello, how are you doing?')"> click button</button>				
+	</Form>
+</body>
+</html>
