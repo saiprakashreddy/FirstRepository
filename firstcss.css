@@ -1,0 +1,63 @@
+body{
+
+	background-color:gray;
+}
+h1,h2 {
+		background-color: yellow;
+		text-decoration: underline;
+	}
+
+	h1{
+		color: gray;
+		border-bottom: 2px solid black;
+		width: 500px;
+	}
+
+	.first{
+		color: green;
+		font-size: 20px;
+		font-family: verdana;
+	}
+
+	p.second{
+		color: pink;
+		font-size: 30px;
+		font-family: monospace;
+		font-weight: bolder;
+	}
+
+	h2{
+		text-decoration: underline;
+	}
+	blockquote{
+		line-height: 2.0em;
+		background-color: #ffdd22;
+		padding: 25px;
+		border-color: black;
+		border-width: 8px;
+		border-style: double;
+		background-image: url("Desert.jpg");
+
+	}
+	.image1{
+		margin-left: auto;
+		margin-right: auto;
+		border-color: yellow;
+		display: block;
+		padding-top: 3px;
+		border-style: solid;
+
+	}
+	p.para1{
+		color: purple;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 200%;
+		font-family: serif;
+		background-color: green;
+		padding: 25px;
+		border:10px solid black;
+		margin: 20px;
+		margin-left: 255px;
+		padding-top: 50px;
+	}

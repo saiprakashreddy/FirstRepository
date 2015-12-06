@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>javascript code</title>
+	<script type="text/javascript">
+	// This is to print Hello world in the browser
+		/*document.write("Hello world </br>");
+		document.write("Good bye world <br/>");
+		var MyName = "saiprakash";
+		document.write(MyName);
+
+		var Number = 10;
+		document.write(Number);
+
+		document.write("<br/>")
+
+
+
+		var a = 10;
+		var b = 3;
+
+		a = a+b;
+		a++;
+		a--;
+		document.write(a);
+
+
+		document.write("<br/>");
+
+		var firstname = "saiprakashreddy";
+		var lastname = "boggula"
+
+		document.write(firstname+" " + lastname);
+		*/
+
+		//alert("you clicked me");
+		/*
+		var a = 15;
+
+		function f1(){
+
+		document.write(a);
+
+		}
+		f1();
+		document.write(a);
+		
+
+		var a = 20;
+		if(a == 21){
+			document.write("a == 21");
+		}
+		else if(a == 19){
+			document.write("a == 19");
+		}
+		else if(a == 20){
+			document.write("a == 20");
+		}
+		else{
+			document.write("nothing to print")
+		}
+		
+
+
+		//switch statement
+
+		var fruit = "amango";
+
+		switch(fruit){
+			case "mango":
+				document.write("The fruit is mango");
+				break;
+
+			case "apple":
+				document.write("The fruit is apple");
+				break;
+
+			default:
+				document.write("The fruit is neither mango or apple");
+			
+		}
+		
+
+		var a = 0;
+
+		do{
+			{
+			a++;
+			document.write("The value of a is " + a +"<br/>");
+			
+		}
+		}
+
+		while(a <= 10);
+		
+
+		//for loop
+
+		for(i = 1; i < 10; i++){
+			document.write("This loop print for " + i + "times </br>");
+		}
+		
+		var a = "My name is saiprakashreddy boggula";
+
+		//document.write(a.length);
+		var b = a.toUpperCase();
+		document.write(b);
+
+			var image_tracker = 'f';
+
+			function change(){
+
+				var image = document.getElementById('social');
+				if(image_tracker == 'f'){
+					image.src = 'Koala.jpg';
+					image_tracker = 't';
+				}
+				else{
+					image.src = 'Desert.jpg';
+					image_tracker = 'f';
+				}
+			}
+			
+			setInterval('change()', 10000);
+		
+		
+		function writeMyName(){
+			var welcome = document.getElementById('hi');
+			var myName = document.getElementById('name');
+			welcome.innerHTML = "welcome "+ myName.value;
+		}
+
+			
+		*/
+
+			function evaluate(){
+				var user = document.getElementById('username').value;
+				var pass = document.getElementById('password').value;
+
+				if(user == "" || pass == ""){
+					alert("Please enter the values");
+					return false;
+				}
+				else{
+					return true;
+				}
+			}
+ 
+
+	</script>
+</head>
+<body>
+	<form action="new1.html" method = "get" onsubmit="return evaluate()">
+		UserName: <input type="text" id = "username"\>
+		PassWord: <input type="password" id="password"\>
+		<input type="submit" value="login">
+		
+	</form>
+	
+
+</body>
+</html>
